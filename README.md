@@ -11,6 +11,7 @@ SSO redirect enables you to authenticate users through your site before seamless
 - `NEXT_PUBLIC_CHATBOT_ID_2`: The ID of the chatbot 2 that the user has access to.
 - `NEXT_PUBLIC_COMPANY_ID`: Your company ID, which can be found in the [SSO Login](https://www.chat-data.com/account/sso-login) page.
 - `NEXT_PUBLIC_REDIRECT_URL`: The URL of the page you want to redirect to after the user logs out or the chatbot is not found.
+- `NEXT_PUBLIC_CHAT_DATA_WEBSITE`: Your white-labeled Chat Data website URL. If you don't have a white-label setup, use `https://www.chat-data.com`.
 - `PRIVATE_JWT_SECRET`: The private secret key for signing the JWT token, which can be found in the [SSO Login](https://www.chat-data.com/account/sso-login) page.
 
 If you're subscribed to the **SSO Login** plan of [Chat Data](https://www.chat-data.com/pricing), you can obtain your `PRIVATE_JWT_SECRET` from the [SSO Login](https://www.chat-data.com/account/sso-login) page.
